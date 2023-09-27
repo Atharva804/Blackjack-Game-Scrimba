@@ -3,9 +3,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blackjack Game</title>
-    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <h1>Blackjack</h1>
+    <p id="msg-el">Want to play a round?</p>
+    <p id="cards-el">Cards:</p>
+    <p id="sum-el">Sum:</p>
+    <button onclick="startGame()" class="btn-cards" id="start-game">START GAME</button>
+    <button onclick="newCard()" class="btn-cards" id="new-card" style="margin-top: 5px;">NEW CARD</button>
+    <script src="index.js"></script>
 </body>
 </html>
