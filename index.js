@@ -8,6 +8,14 @@ let messageEl = document.getElementById("msg-el")
 let sumEl = document.querySelector("#sum-el")
 let cardsEl = document.querySelector("#cards-el")
 
+let player = {
+    name: "Atharva",
+    chips: 140
+}
+
+let playerEl = document.getElementById("player-el")
+playerEl.textContent = player.name + ": $" + player.chips
+
 function startGame () {
     let firstCard = getRandomCard()
     let secondCard = getRandomCard()
