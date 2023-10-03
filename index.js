@@ -4,16 +4,15 @@ let sum = 0
 let hasBlackJack = false
 let isAlive = false
 let message = ""
-let messageEl = document.getElementById("msg-el")
-let sumEl = document.querySelector("#sum-el")
-let cardsEl = document.querySelector("#cards-el")
-
 let player = {
     name: "Atharva",
     chips: 140
 }
-
+let messageEl = document.getElementById("msg-el")
+let sumEl = document.querySelector("#sum-el")
+let cardsEl = document.querySelector("#cards-el")
 let playerEl = document.getElementById("player-el")
+
 playerEl.textContent = player.name + ": $" + player.chips
 
 function startGame () {
